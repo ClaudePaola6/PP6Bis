@@ -1,0 +1,12 @@
+# Ignorer les fichiers objets
+*.o
+
+# Ignorer les exécutables
+print
+print_c
+
+# Ignorer les fichiers spécifiques aux éditeurs et systèmes
+*~
+*.swp
+.DS_Store
+Thumbs.db
