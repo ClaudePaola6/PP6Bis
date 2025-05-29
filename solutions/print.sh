@@ -13,9 +13,9 @@ print_vars() {
 }
 
 print_escape() {
-    echo -e "Voici un texte sur deux lignes :\nPremière ligne\nDeuxième ligne"
-    echo -e "Voici un texte avec tabulation :\tCeci est tabulé"
-    echo -e "\e[32mTexte en vert\e[0m"
+    echo -e "Hier ist ein Text mit zwei Zeilen \nerste Zeile \nzweite Zeile"
+    echo -e "Hier ist ein text mit einer Tabulation :\tDas hier ist eine Tabulation"
+    echo -e "\e[32mText in grün\e[0m"
 }
 
 print_greeting
